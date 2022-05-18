@@ -14,7 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\MoreNet.ProjectTemplate\MoreNet.ProjectTemplate.csproj" />
+    <ProjectReference Include="..\$ext_safeprojectname$\$ext_safeprojectname$.csproj" />
   </ItemGroup>
 
 </Project>
