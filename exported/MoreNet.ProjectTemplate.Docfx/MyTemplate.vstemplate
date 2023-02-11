@@ -1,0 +1,32 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>MoreNet.ProjectTemplate.Docfx</Name>
+    <Description>Docfx for MoreNet</Description>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>MoreNet.ProjectTemplate.Docfx</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <CreateInPlace>true</CreateInPlace>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="$safeprojectname$.Docfx.csproj" File="MoreNet.ProjectTemplate.Docfx.csproj" ReplaceParameters="true">
+      <Folder Name="api" TargetFolderName="api">
+        <ProjectItem ReplaceParameters="false" TargetFileName="index.md">index.md</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="toc.yml">toc.yml</ProjectItem>
+      </Folder>
+      <Folder Name="articles" TargetFolderName="articles">
+        <ProjectItem ReplaceParameters="false" TargetFileName="intro.md">intro.md</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="toc.yml">toc.yml</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="docfx.json">docfx.json</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="index.md">index.md</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="toc.yml">toc.yml</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
