@@ -6,12 +6,10 @@
           "files": [
             "**.csproj"
           ],
-          "src": "../../src/MoreNet.Foundation"
+          "src": "../$ext_safeprojectname$"
         }
       ],
-      "dest": "api",
-      "disableGitFeatures": false,
-      "disableDefaultFilter": false
+      "dest": "api"
     }
   ],
   "build": {
@@ -49,17 +47,9 @@
         ]
       }
     ],
-    "dest": "../../docs",
-    "globalMetadataFiles": [],
-    "fileMetadataFiles": [],
+    "dest": "../docs",
     "template": [
       "default"
-    ],
-    "postProcessors": [],
-    "markdownEngineName": "markdig",
-    "noLangKeyword": false,
-    "keepFileLink": false,
-    "cleanupCacheHistory": false,
-    "disableGitFeatures": false
+    ]
   }
 }

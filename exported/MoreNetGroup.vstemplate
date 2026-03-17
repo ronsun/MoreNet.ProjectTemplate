@@ -19,6 +19,7 @@
       <ProjectTemplateLink ProjectName="$safeprojectname$" CopyParameters="true">MoreNet.ProjectTemplate\MoreNet.ProjectTemplate.vstemplate</ProjectTemplateLink>
       <ProjectTemplateLink ProjectName="$safeprojectname$.IntegrationTests" CopyParameters="true">MoreNet.ProjectTemplate.IntegrationTests\MoreNet.ProjectTemplate.IntegrationTests.vstemplate</ProjectTemplateLink>
       <ProjectTemplateLink ProjectName="$safeprojectname$.UnitTests" CopyParameters="true">MoreNet.ProjectTemplate.UnitTests\MoreNet.ProjectTemplate.UnitTests.vstemplate</ProjectTemplateLink>
+      <ProjectTemplateLink ProjectName="$safeprojectname$.Docfx" CopyParameters="true">MoreNet.ProjectTemplate.Docfx\MyTemplate.vstemplate</ProjectTemplateLink>
     </ProjectCollection>
   </TemplateContent>
 </VSTemplate>

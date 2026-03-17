@@ -1,0 +1,4 @@
+log.txt
+api/*
+!api/.gitignore
+!api/index.md

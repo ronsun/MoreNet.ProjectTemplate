@@ -16,14 +16,18 @@
   </TemplateData>
   <TemplateContent>
     <Project TargetFileName="$safeprojectname$.Docfx.csproj" File="MoreNet.ProjectTemplate.Docfx.csproj" ReplaceParameters="true">
+      <Folder Name=".config" TargetFolderName=".config">
+        <ProjectItem ReplaceParameters="false" TargetFileName="dotnet-tools.json">dotnet-tools.json</ProjectItem>
+      </Folder>
       <Folder Name="api" TargetFolderName="api">
+        <ProjectItem ReplaceParameters="false" TargetFileName=".gitignore">.gitignore</ProjectItem>
         <ProjectItem ReplaceParameters="false" TargetFileName="index.md">index.md</ProjectItem>
-        <ProjectItem ReplaceParameters="false" TargetFileName="toc.yml">toc.yml</ProjectItem>
       </Folder>
       <Folder Name="articles" TargetFolderName="articles">
         <ProjectItem ReplaceParameters="false" TargetFileName="intro.md">intro.md</ProjectItem>
         <ProjectItem ReplaceParameters="false" TargetFileName="toc.yml">toc.yml</ProjectItem>
       </Folder>
+      <ProjectItem ReplaceParameters="false" TargetFileName=".gitignore">.gitignore</ProjectItem>
       <ProjectItem ReplaceParameters="true" TargetFileName="docfx.json">docfx.json</ProjectItem>
       <ProjectItem ReplaceParameters="false" TargetFileName="index.md">index.md</ProjectItem>
       <ProjectItem ReplaceParameters="false" TargetFileName="toc.yml">toc.yml</ProjectItem>
